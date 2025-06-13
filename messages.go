@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	xml "github.com/alist-org/gofakes3/xml"
+	xml "github.com/NewAlist/gofakes3/xml"
 )
 
 type Storage struct {
