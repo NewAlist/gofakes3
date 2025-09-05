@@ -67,7 +67,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install Go
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v6
         with:
           go-version: ${{ matrix.go }}
           check-latest: true
@@ -123,7 +123,7 @@ jobs:
 
       # Run govulncheck on the latest go version, the one we build binaries with
       - name: Install Go
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v6
         with:
           go-version: '>=1.22.0-rc.1'
           check-latest: true
